@@ -379,7 +379,7 @@ void hmac_sha512(const unsigned char *key, unsigned int key_size,
     hmac_sha512_final(&ctx, mac, mac_size);
 }
 
-#ifdef TEST_VECTORS
+#ifdef TEST_VECTORS_HMAC
 
 /* IETF Validation tests */
 

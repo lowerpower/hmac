@@ -821,7 +821,7 @@ void sha224_final(sha224_ctx *ctx, unsigned char *digest)
 #endif /* !UNROLL_LOOPS */
 }
 
-#ifdef TEST_VECTORS
+#ifdef TEST_VECTORS_SHA
 
 /* FIPS 180-2 Validation tests */
 
